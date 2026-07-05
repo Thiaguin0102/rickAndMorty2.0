@@ -1,0 +1,84 @@
+body{
+    background-image: url('./Space.tga_.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 40px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+img.logo{
+    width: 300px;
+    height: 100px;
+    margin-left: start;
+}
+.filtrar{
+    .filtrar-input {
+    /* Coloque o caminho da sua imagem da lupa aqui: */
+        background-image: url('./icons8-pesquisar-50.png');
+        background-position: 10px center;
+        background-repeat: no-repeat; 
+        background-size: 18px;
+        padding: 8px 8px 8px 35px; /* IMPORTANTE: O espaço da esquerda (35px) impede que o texto fique em cima da lupa */
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 250px;
+        height: 20px;
+        border-radius: 15px;
+        border: 1px solid #24325f;
+        font-size: 16px;
+        text-align: center;
+        font-family: "Creepster", system-ui;
+        color: #24325f;
+        background-color: #b7e4f9;
+    }
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: "Creepster", system-ui;
+}
+
+.lista_de_personagens{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+.card{
+    background-color: #526e2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    border-radius: 10px;
+    padding: 5px;
+    img{
+        width: 200px;
+        height: 230px;
+        border-radius: 10px;
+    }
+    h2{
+        color: white;
+        font-family: "Righteous", sans-serif;
+        span{
+            color: #b7e4f9;
+            font-family: "Creepster", system-ui;
+        }
+        
+    }
+    p{
+        color:white;
+        font-family: "Righteous", sans-serif;
+        span{
+            font-family: "Creepster", system-ui;
+            color: #fafd7c;
+        }
+    }
+}
